@@ -33,7 +33,7 @@ def smooth_l1(x, sigma=1.0):
         # 计算 sigma 的平方
     sigma2 = sigma**2
     
-    # 计算阈值
+    # 计算阈值1
     threshold = 1.0 / sigma2
     
     # 计算 |x|
